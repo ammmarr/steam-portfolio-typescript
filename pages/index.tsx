@@ -8,7 +8,7 @@ export default function home() {
         <title>Ammar Elkosi | Web Developer</title>
         <meta name="description" content="Bleep boop" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Home />
     </>
