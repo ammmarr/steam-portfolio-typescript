@@ -18,6 +18,46 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Telefric",
+    imgSrc: "project-imgs/telefric.png",
+    code: "https://github.com/ammmarr",
+    projectLink: "https://app.telefreik.com",
+    tech: ["React", "TailWind CSS", "Typescript"],
+    description:
+      "Worked with a team of developers, designers,and testers in developing this application.I enjoyed working in more of a encouraging team enviroment.",
+    modalContent: (
+      <>
+        <p>
+          Telefric is a startup in Egypt looking making transportation methods much more convinient
+        </p>
+        <p>
+          I worked with a set of Teams as Designers, Back end engineers, and of course a team of Front end developers
+        </p>
+
+        <p>
+          I enjoyed working on this project because there were are alot of challenges with the previos code and design
+        </p>
+        <p>
+          I made sure that figma desings are translated into pixel perfect quality ={">"}
+        </p>
+        <p>{' '}</p>
+        <p>
+          - I was working with in this application by React, Typescript
+        </p>
+
+        <p>- I Implemented and read alot of libraries documantion to make sure that my website is working as expected</p>
+
+
+
+
+
+
+
+
+      </>
+    ),
+  },
+  {
     title: "Wilma",
     imgSrc: "project-imgs/resturant.png",
     code: "https://github.com/ammmarr/FreelancingResturantApp",
@@ -66,6 +106,7 @@ const projects = [
           - used Formik and Yup for form validation and handling
 
         </p>
+        <p>- I surely practiced the SOLID princibles for writing clean and maintainable code</p>
 
 
 

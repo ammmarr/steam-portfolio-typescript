@@ -14,6 +14,15 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Code Ocean (telefric)",
+    position: "Software Engineer",
+    time: "2022",
+    location: "Remote",
+    description:
+      "  During my Time at Code Ocean as a front-end developer, I gained invaluable building, refactoring,debugging, and redesigining websites, collaborating within a dynamic team, and implementing design concepts into functional web applications. This opportunity enhanced my coding skills and provided insights into real-world web development practices.",
+    tech: ["React", "Redux", "tailwind", "Typescript", "React-query"],
+  },
+  {
     title: "EGT-Soft",
     position: "Software Engineer",
     time: "2022 - 2023",
