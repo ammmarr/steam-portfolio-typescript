@@ -132,6 +132,60 @@ const projects = [
     ),
   },
   {
+    title: "Ecommerce Furniture Store",
+    imgSrc: "project-imgs/E-commerce.png",
+    code: "https://github.com/ammmarr/movies-surfer",
+    projectLink: "https://ammmarr.github.io/movies-surfer/",
+    tech: ["React", "Redux", "Javascript", "Firebase"],
+    description: "A Fully Functional E-commerce Web application with ).",
+    modalContent: (
+      <>
+        <p></p>
+        <p>
+          The Online Furniture Store is a modern e-commerce platform that offers
+          a wide range of furniture products for customers looking to enhance
+          their home or office spaces. This platform was developed using
+          cutting-edge technologies, including React, Redux, JavaScript, and
+          Firebase, to provide users with a seamless shopping experience.
+        </p>
+        <p>Key Features:</p>
+        <p>
+          User Authentication: Users can create accounts, log in, and securely
+          manage their profiles, including cart details, thanks to Firebase
+          Authentication.
+        </p>
+        <p>
+          Product Listings: The platform offers a vast catalog of furniture
+          items, categorized for easy navigation. Users can filter products
+          based on various criteria, such as price. Shopping Cart: With Redux
+          managing the application state,
+        </p>
+        <p>
+          {" "}
+          users can easily add and remove items from their shopping cart. Cart
+          contents are persisted across sessions, ensuring a seamless shopping
+          experience.
+        </p>
+        <p>
+          {" "}
+          Search Functionality: Users can quickly find specific products using a
+          robust search feature, enhancing the overall user experience.
+        </p>
+        <p>
+          Responsive Design: The platform is designed to be responsive, ensuring
+          a consistent and user-friendly experience across various devices,
+          including desktops, tablets, and smartphones.
+        </p>
+        <p>
+          Real-time Updates: Firebase's real-time database capabilities enable
+          instant updates to product availability and stock information.
+          Conclusion:
+        </p>
+      </>
+    ),
+  },
+
+  {
     title: "Sorting algorithms visualizer",
     imgSrc: "project-imgs/sortAlgo.png",
     code: "https://github.com/ammmarr/sorting-algorithms-visualizer",
