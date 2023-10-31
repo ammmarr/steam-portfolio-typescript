@@ -14,8 +14,26 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Neu Ocean Technologies",
+    position: "React Developer",
+    time: "2023 - present",
+    location: "London - Remote",
+    description:
+      "Designed, Built, and deployed multiple webiste for various clients, got involved alot in their Backend",
+    tech: ["React", "Redux", "tailwind", "Typescript", "React-query"],
+  },
+  {
+    title: "GreenAnt",
+    position: "NextJs/React Developer",
+    time: "2023 - present",
+    location: "The Netherlands - Remote",
+    description:
+      "Worked with a team of Developers, Designers, and product managers to deliver an amazing website for thestartup.Built and maintained The GreenAnt UI which led to a lot of attraction to investorsTranslated and convertied FIGMA designs to clean maintainable code",
+    tech: ["NextJs", "React", "Redux", "tailwind", "Typescript", "React-query"],
+  },
+  {
     title: "Code Ocean (telefric)",
-    position: "Software Engineer",
+    position: "Front end (React) Engineer",
     time: "2022",
     location: "Remote",
     description:
@@ -24,20 +42,12 @@ const experience = [
   },
   {
     title: "EGT-Soft",
-    position: "Software Engineer",
+    position: "Front end (React) Engineer",
     time: "2022 - 2023",
     location: "Remote",
     description:
       "I help build and scale Web Applications For Various clients across the globe.",
-    tech: [
-      "NextJs",
-      "React",
-      "Redux",
-      "SASS",
-      "Git",
-      "GitHub",
-
-    ],
+    tech: ["NextJs", "React", "Redux", "SASS", "Git", "GitHub"],
   },
   {
     title: "Independent Freelancer",
@@ -58,7 +68,6 @@ const experience = [
       "NextAuth",
       "Firebase",
       "Cloudinary",
-
     ],
   },
   {
@@ -70,5 +79,4 @@ const experience = [
       "  During my internship at Motajer as a front-end developer, I gained invaluable experience in crafting responsive user interfaces, collaborating within a dynamic team, and implementing design concepts into functional web applications. This opportunity enhanced my coding skills and provided insights into real-world web development practices.",
     tech: ["React", "Redux", "tailwind", "Rest ApI"],
   },
-
 ];
