@@ -177,8 +177,8 @@ const projects = [
           including desktops, tablets, and smartphones.
         </p>
         <p>
-          Real-time Updates: Firebase's real-time database capabilities enable
-          instant updates to product availability and stock information.
+          Real-time Updates: Firebase &apos;s real-time database capabilities
+          enable instant updates to product availability and stock information.
           Conclusion:
         </p>
       </>
