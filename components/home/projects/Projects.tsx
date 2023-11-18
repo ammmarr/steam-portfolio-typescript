@@ -58,8 +58,7 @@ const projects = [
     title: "Wilma",
     imgSrc: "project-imgs/resturant.png",
     code: "https://github.com/ammmarr/FreelancingResturantApp",
-    projectLink:
-      "https://freelancing-1-9lz9ey26x-ammarrelkosii-yahoocom.vercel.app/",
+    projectLink: "https://freelancing-1.vercel.app/",
     tech: ["NextJS", "MongoDb", "Typescript", "SASS Modules", "Framer-motion"],
     description:
       "First freelancing project for an italian Resturant owner. A Resturant app for resturant owners. This app is my baby, designed and built on my own.",
