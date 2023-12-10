@@ -11,7 +11,7 @@ interface Props {
   modalContent: JSX.Element;
   description: string;
   projectLink: string;
-  imgSrc: string;
+  imgSrc: any;
   tech: string[];
   title: string;
   code: string;
@@ -70,6 +70,8 @@ export const Project = ({
 
               rotate: hovered ? "2deg" : "0deg",
             }}
+            width={10000}
+            height={100000}
           />
         </div>
         <div className={styles.projectCopy}>
