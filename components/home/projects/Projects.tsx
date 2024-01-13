@@ -6,6 +6,7 @@ import telefric from "../../../public/project-imgs/telefric.png";
 import wilma from "../../../public/project-imgs/resturant.png";
 import ecommerce from "../../../public/project-imgs/E-commerce.png";
 import sortingAlgo from "../../../public/project-imgs/sortAlgo.png";
+import traum from "../../../public/project-imgs/Screenshot 2024-01-13 134427.png";
 
 export const Projects = () => {
   return (
@@ -22,6 +23,47 @@ export const Projects = () => {
 };
 
 const projects = [
+  {
+    title: "Traum Architecture",
+    imgSrc: traum,
+    code: "https://github.com/ammmarr/Tazzweed",
+    projectLink: "https://traum-eg.vercel.app/",
+    tech: ["React", "SASS Modules", "Typescript", "Framer-motion"],
+    description:
+      "I was a part of an amazing team of developers, to make sure that the website is looking amazing across all devices and browsers",
+    modalContent: (
+      <>
+        <p>
+          An Architect reached out to me to build him a catchy portfolio website
+          to showcase his projects, work, and experience.
+        </p>
+        <p>
+          I listened to every single detail of what he trying to build and how
+          he liked the design to be like.
+        </p>
+        <p>
+          I showed him multiple designs and he chose what he liked. Now the fun
+          part starts,
+        </p>
+        <p>
+          I made sure I included page transitions for more of a premium look, A
+          movable navigation bar to increase the look and feel of the website.
+        </p>
+        <p>
+          I chose SCSS modules for better customizability of styling Typescript
+          for maintainability of the code and of course React js
+        </p>
+
+        <p>
+          {" "}
+          aside from styling, My client asked for a full dashboard to Add - Edit
+          - And delete his data I went with Strapi CMS for that purpose overall,
+          it was a great project to work on feel free to reach out if you have
+          any questions!
+        </p>
+      </>
+    ),
+  },
   {
     title: "Tazzweed",
     imgSrc: tazzweed,
